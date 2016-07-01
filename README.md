@@ -15,21 +15,27 @@ A React components to use the Clef button
 Install it via npm:
 
 ```shell
-npm install 
+npm install clef-button-component
 ```
 
 ## Usage
 
 ```javascript
-import clef-button-component from '';
+import ClefButton from 'clef-button-component';
 
-/*
-*
-* Add more usage information here.
-* Good code is bad unless it's documented.
-*
-*/
+<ClefButton
+  appID={React.PropTypes.string.isRequired},
+  redirectURL={React.PropTypes.string.isRequired},
+  state={React.PropTypes.string.isRequired},
+  color={React.PropTypes.string},
+  type={React.PropTypes.string},
+  custom={React.PropTypes.bool},
+  embed={React.PropTypes.bool},
+  onError={React.PropTypes.func.isRequired}
+/>
 ```
+
+For more information on the different properties, check out [the documentation](https://docs.getclef.com/docs/adding-the-clef-button).
 
 ## Development
 
