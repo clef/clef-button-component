@@ -1,7 +1,7 @@
 {
   "name": "clef-button-component",
   "description": "A React components to use the Clef button",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "lib/index.js",
   "author": "jessepollak",
   "repository": "clef/clef-button-component",
