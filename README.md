@@ -1,9 +1,9 @@
 # clef-button-component
 
 ![Build Status](https://img.shields.io/travis/clef/clef-button-component.svg)
-![Downloads](https://img.shields.io/npm/dm/.svg)
-![Downloads](https://img.shields.io/npm/dt/.svg)
-![npm version](https://img.shields.io/npm/v/.svg)
+![Downloads](https://img.shields.io/npm/dm/clef-button-component.svg)
+![Downloads](https://img.shields.io/npm/dt/clef-button-component.svg)
+![npm version](https://img.shields.io/npm/v/clef-button-component.svg)
 ![dependencies](https://img.shields.io/david/clef/clef-button-component.svg)
 ![dev dependencies](https://img.shields.io/david/dev/clef/clef-button-component.svg)
 ![License](https://img.shields.io/github/license/clef/clef-button-component.svg)
