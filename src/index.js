@@ -1,5 +1,4 @@
 import React, {Component} from 'react'
-import ReactDOM from 'react-dom'
 import scriptLoader from 'react-async-script-loader'
 
 class ClefButton extends Component {
@@ -20,12 +19,13 @@ class ClefButton extends Component {
   }
 
   init () {
-    window.ClefButton.initialize({ el: ReactDOM.findDOMNode(this) })
+    window.ClefButton.initialize({ el: this.refs.button })
   }
 
   render () {
     return (
       <div
+        ref='button'
         data-app-id={this.props.appID}
         data-redirect-url={this.props.redirectURL}
         data-state={this.props.state}
