@@ -20,6 +20,7 @@ class ClefButton extends Component {
 
   init () {
     window.ClefButton.initialize({ el: this.refs.button })
+    if (this.props.onSuccess) this.props.onSuccess()
   }
 
   render () {
@@ -47,7 +48,8 @@ ClefButton.propTypes = {
   embed: React.PropTypes.bool,
   isScriptLoaded: React.PropTypes.bool,
   isScriptLoadSucceed: React.PropTypes.bool,
-  onError: React.PropTypes.func.isRequired
+  onError: React.PropTypes.func.isRequired,
+  onSuccess: React.PropTypes.func
 }
 ClefButton.SCRIPT_URL = 'https://clef.io/v3/clef.js'
 

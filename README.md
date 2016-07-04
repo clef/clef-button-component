@@ -24,14 +24,15 @@ npm install clef-button-component
 import ClefButton from 'clef-button-component';
 
 <ClefButton
-  appID={React.PropTypes.string.isRequired},
-  redirectURL={React.PropTypes.string.isRequired},
-  state={React.PropTypes.string.isRequired},
-  color={React.PropTypes.string},
-  type={React.PropTypes.string},
-  custom={React.PropTypes.bool},
-  embed={React.PropTypes.bool},
+  appID={React.PropTypes.string.isRequired}
+  redirectURL={React.PropTypes.string.isRequired}
+  state={React.PropTypes.string.isRequired}
+  color={React.PropTypes.string}
+  type={React.PropTypes.string}
+  custom={React.PropTypes.bool}
+  embed={React.PropTypes.bool}
   onError={React.PropTypes.func.isRequired}
+  onSuccess={React.PropTypes.func}
 />
 ```
 
